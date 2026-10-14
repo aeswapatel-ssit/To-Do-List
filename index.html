@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aesthetic To-Do List</title>
+    <title>Sleek GenZ Task Flow</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="todo-container">
-        <h2>My Daily Tasks</h2>
-        <div class="input-box">
-            <input type="text" id="taskInput" placeholder="Add a sweet new task...">
+    <div class="todo-card">
+        <div class="header">
+            <h2>Today's Flow ✨</h2>
+            <p id="dateDisplay">Stay productive, stay chill.</p>
+        </div>
+        <div class="input-wrapper">
+            <input type="text" id="taskInput" placeholder="Drop a new task here...">
             <button onclick="addTask()">Add</button>
         </div>
-        <ul id="taskList"></ul>
+        <ul id="taskList">
+            <!-- Dynamic tasks will be added here -->
+        </ul>
     </div>
     <script src="script.js"></script>
 </body>
